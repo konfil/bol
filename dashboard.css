@@ -1,0 +1,69 @@
+/* dashboard styling */
+/* Layout component styling */
+.padding-none {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.regular-fonts {
+  font-family: "cabin-regular";
+}
+
+.text-orange {
+  color: #f1592a;
+}
+.navbar {
+  padding-top: 0px 8%;
+  text-align: center;
+}
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-right: 5%;
+  margin-left: 3%;
+}
+.nav-link {
+  font-family: "cabin-medium";
+  font-weight: 400;
+  margin: 0 10px;
+}
+.btn-outline-primary {
+  color: black;
+  border-color: black;
+  border-radius: 35px;
+  padding: 0.4em 1.5em;
+  font-family: "cabin-regular";
+  /* font-weight: 400; */
+  text-align: right;
+  font-size: 14;
+  margin: auto;
+
+  /* margin-right: 10px; */
+}
+
+.collapse {
+  text-align: center;
+}
+.profile-image {
+  padding: 0px 10px;
+  object-fit: cover;
+  height: 45px;
+  width: 70px;
+  border-radius: 100%;
+  border: none;
+}
+.margin-right {
+  margin-right: 10px;
+}
+.icon-border {
+  border: 5px;
+  border-color: #f1592a;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.padding-top-bottom {
+  padding: 10px 0px;
+}

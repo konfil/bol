@@ -1,0 +1,526 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-family: "cabin";
+  position: absolute;
+  overflow-x: hidden;
+}
+
+/* general layout */
+
+.padding {
+  padding-top: 3em;
+  /* line-height: 1em; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.orange-color {
+  background-color: #f1592a;
+}
+.text-orange {
+  color: #f1592a;
+}
+.padding-top-little {
+  padding-top: 4px;
+}
+
+.bg {
+  background-color: #fff;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.border-none {
+  border: none;
+}
+.regular-fonts {
+  font-family: "cabin-regular";
+}
+.icon-color {
+  color: #36a681;
+}
+.padding-sides {
+  padding: 0 1em;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.inter-padding {
+  padding-bottom: 14px;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.margin {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* the hero section of the site  */
+#hero {
+  padding: 0% 10%;
+}
+.navbar {
+  padding-top: 20px 8%;
+  text-align: center;
+}
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-right: 20%;
+  margin-left: 10%;
+}
+.nav-link {
+  font-family: "cabin-medium";
+  font-weight: 400;
+  margin: 0 10px;
+}
+.btn-outline-primary {
+  color: black;
+  border-color: black;
+  border-radius: 35px;
+  padding: 0.4em 1.5em;
+  font-family: "cabin-regular";
+  /* font-weight: 400; */
+  text-align: right;
+  font-size: 14;
+  margin: auto;
+
+  /* margin-right: 10px; */
+}
+.collapse {
+  text-align: center;
+}
+/* .container {
+  padding: 0%;
+  width: 100vw;
+} */
+h1 {
+  text-align: left;
+  padding-right: 30%;
+  line-height: 1.4em;
+  font-family: "cabin-bold";
+  font-size: 2.8em;
+}
+/* hero sectiion styling */
+.hero-sec-row {
+  padding-top: 3em;
+  text-align: center;
+  /* align-items: center; */
+}
+.hero-container {
+  padding-top: 20px;
+  text-align: right;
+  justify-content: right;
+  line-height: 1.5em;
+}
+.hero-text {
+  padding: 0 3%;
+  text-align: left;
+  line-height: 3em;
+}
+.subtext {
+  text-align: right;
+  float: left;
+  font-family: "cabin-medium";
+  /* font-weight: 400; */
+}
+.hero-button {
+  border-radius: 35px;
+  border: none;
+  background-color: #f1592a;
+  color: white;
+  padding: 0.5em 1.5em;
+  font-family: "cabin-regular";
+}
+/* the featured partners section */
+#featured_partners {
+  padding: 0% 10%;
+  text-align: center;
+}
+.h3-tags {
+  font-family: "cabin-medium";
+  padding-top: 3em;
+}
+
+i {
+  color: black;
+  font-size: 40px;
+  padding-bottom: 0.4em;
+}
+.config-margin {
+  margin: 0 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 3em;
+  width: 8em;
+  text-align: center;
+}
+/* how it works section */
+#how-it-works {
+  padding: 0% 10%;
+  text-align: center;
+  /* padding: auto; */
+  /* margin: auto; */
+}
+.p-subtext {
+  font-family: "cabin-regular";
+  /* padding: auto; */
+  margin-top: 12px;
+  /* padding: 20px 20px 10px px; */
+  text-align: center;
+  font-size: 16px;
+}
+.circle-radius {
+  align-items: center;
+  border-radius: 100%;
+  width: 70px;
+  padding: 20px 20px 0px 20px;
+  height: 70px;
+  /* display: flex; */
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.card-row {
+  /* text-align: center; */
+  justify-content: center;
+}
+.card-icons {
+  color: #36a681;
+  font-size: 30px;
+}
+/* card parent container */
+.feature-cards {
+  text-align: left;
+  padding: 12px 10px;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  /* line-height: 50px; */
+}
+
+.card-subtext {
+  font-family: "cabin-regular";
+  font-size: 16px;
+}
+.card-title {
+  font-family: "cabin-bold";
+  font-size: 18px;
+}
+/* what we offer */
+#what-we-offer {
+  padding: 0% 10%;
+  text-align: center;
+}
+.solution-text {
+  font-family: "cabin-regular";
+  font-size: 24;
+}
+.offers-subtext {
+  font-family: "cabin-regular";
+  text-align: center;
+}
+.text-section-offer {
+  padding: 0 15em;
+}
+/* list styling */
+.b2b-card {
+  padding: 10px 10px;
+  text-align: left;
+  justify-content: center;
+  background-color: #feeeea;
+}
+.card-body-text {
+  font-family: "cabin-regular";
+}
+ol {
+  list-style-type: none;
+  padding-top: 5px;
+  font-family: "cabin-regular";
+}
+
+ol li::before {
+  content: "\2022";
+  color: #f1592a;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+}
+.b2b-card-titles {
+  color: #f1592a;
+  font-size: 24px;
+  font-family: "cabin-medium";
+}
+.alignment {
+  position: relative;
+  float: right;
+  top: 5em;
+  right: 23px;
+}
+.image-styling {
+  height: 400px;
+  position: relative;
+  float: right;
+  top: 3em;
+  right: 23px;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-styling1 {
+  height: 400px;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* designed for developers */
+#designed-for-developers {
+  padding: 0% 10%;
+}
+.designed-for-devs {
+  margin-top: 5em;
+  text-align: left;
+}
+.image-style {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+}
+.image-style1 {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  position: relative;
+  top: 8em;
+}
+.pricing-card {
+  margin: 2em;
+  padding: 2em 1em;
+}
+ul {
+  list-style-image: url("done.svg");
+  padding-top: 5px;
+  font-family: "cabin-regular";
+  line-height: 2em;
+}
+#pricing {
+  padding: 0% 10%;
+}
+
+ul li::before {
+  /* content: "\2022"; */
+  color: #f1592a;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  align-items: center;
+
+  /* margin-left: -1em; */
+}
+#customer-review {
+  padding: 0% 10%;
+}
+/* user review section */
+.carousel {
+  padding: 1em 8em;
+}
+.carousel-padding {
+  padding: 2em 5em;
+  border-radius: 10px;
+}
+.circle-image {
+  border-radius: 50%;
+  /* padding: 2em; */
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  margin-top: 1em;
+}
+.create-account {
+  padding: 10px 1em;
+  border: none;
+}
+#make-transactions {
+  width: max-content;
+  width: 100vw;
+}
+
+.make-transactions {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* .container-fluid :hover {
+  background-color: none;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+} */
+.full-width {
+  padding-left: 0;
+  padding-right: 0;
+}
+.full-width {
+  margin-right: 0;
+  margin-left: 0;
+}
+.full-width .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.margin-row {
+  padding: 4em;
+}
+.icon-style {
+  font-size: 18px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+}
+.container-fluid {
+  width: 100vw;
+}
+/* floating chat icon */
+.circle-chat {
+  position: relative;
+  background-color: #f1592a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  left: 95%;
+  padding: 12px;
+}
+.icon-size {
+  font-size: 25px;
+  color: white;
+}
+/* css for the pricing page */
+.explicitly-defined {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.it-pays-font {
+  font-size: 20px;
+}
+/* style for solutions page */
+/* the accordion styles */
+
+.sizing-containers {
+  width: 70%;
+  height: 30%;
+}
+.border-radius {
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 30px;
+}
+.bg-black {
+  background-color: black;
+}
+.border-container {
+  border-radius: 50px;
+  height: 60px;
+  width: 50%;
+  background-color: #feeeea;
+  padding: 1.5% 30px;
+  text-align: center;
+}
+.small-font {
+  font-size: 16px;
+  color: #f1592a;
+}
+.search-icon-color {
+  color: #707070;
+}
+/* developers section sytling*/
+.solution-side-nav {
+  padding: 50px 20%;
+  /* margin-left: 13%; */
+  text-align: left;
+  background-color: #f9f9f9;
+}
+.container-fluid {
+  padding-left: 0;
+}
+.solution-side-text {
+  padding: 2px;
+}
+#developer-sec {
+  margin-top: 40px;
+}
+.developer-section-text {
+  padding: 0 10em;
+}
+/* sign up page styling */
+.btn:hover {
+  background-color: #f1592a;
+  color: white;
+  border-color: #1a1a1a;
+}
+
+.google-btn {
+  border-radius: 10px;
+  align-items: center;
+
+  /* padding: 10px;s */
+}
+.google-logo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+.logo-style {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+.padding-none {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.sign-up-text {
+  padding-top: 3%;
+  align-items: center;
+}
+.padding-sign-signup {
+  padding: 0 40%;
+}
+.form-input-style {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.Sign-btn {
+  padding: 1em 6em;
+  background-color: #f1592a;
+  border-radius: 10px;
+  color: white;
+}
