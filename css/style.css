@@ -7,10 +7,8 @@ body {
 }
 
 /* general layout */
-
 .padding {
   padding-top: 3em;
-  /* line-height: 1em; */
 }
 a {
   text-decoration: none;
