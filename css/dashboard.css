@@ -1,64 +1,68 @@
-.padding-none {
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0;
-}
-.regular-fonts {
-  font-family: "cabin-regular";
-}
-
-.text-orange {
-  color: #f1592a;
-}
-.navbar {
-  padding-top: 0px 8%;
-  text-align: center;
-}
-.navbar-nav {
-  text-align: center;
+:root {
+  /* Color */
+  --primary-color: #f1592a;
+  --secondary-color: red;
+  --bg-light: #fbfbfb;
+  --text-dark: #707070;
 }
 
-.navbar-brand {
-  margin-right: 5%;
-  margin-left: 3%;
-}
-.nav-link {
-  font-family: "cabin-medium";
-  font-weight: 400;
-  margin: 0 10px;
-}
-.btn-outline-primary {
-  color: black;
-  border-color: black;
-  border-radius: 35px;
-  padding: 0.4em 1.5em;
-  font-family: "cabin-regular";
-  text-align: right;
-  font-size: 14;
-  margin: auto;
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
 }
 
-.collapse {
+body {
+  font-family: "Cabin", sans-serif;
+  color: var(--text-dark) !important;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-dark) !important;
+}
+
+.navbar .nav-link {
+  padding: 2rem 1rem !important;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.nav-right div a {
+  color: var(--primary-color);
+  border: 1px solid rgba(243, 124, 88, 0.3);
+  box-shadow: 1px 3px 3px rgba(241, 89, 42, 0.1);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
   text-align: center;
 }
-.profile-image {
-  padding: 0px 10px;
-  object-fit: cover;
-  height: 45px;
-  width: 70px;
-  border-radius: 100%;
-  border: none;
+
+.navbar button:focus {
+  border: 1px dotted var(--text-dark);
+  box-shadow: none !important;
 }
-.margin-right {
-  margin-right: 10px;
+
+.visited {
+  color: var(--primary-color) !important;
+  border-bottom: 1px solid var(--primary-color) !important;
 }
-.icon-border {
-  border: 5px;
-  border-color: #f1592a;
-  width: 30px;
-  height: 30px;
-  text-align: center;
+
+.dashboard-container {
+  max-width: 1200px;
 }
-.padding-top-bottom {
-  padding: 10px 0px;
+
+/* Media Queries */
+@media (max-width: 1199px) {
+  .navbar {
+    padding: 1.5rem !important;
+  }
+
+  .visited {
+    display: none;
+  }
 }
