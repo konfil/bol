@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Solution</title>
+    <title>Pricing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,16 +18,21 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <section id="hero">
-      <div class="container margin-bottom">
+      <div class="container">
         <!-- the nav section -->
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="logo.png" alt="" width="40" height="40" />
+              <img
+                src="../assets/images/logo.png"
+                alt=""
+                width="40"
+                height="40"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -42,8 +47,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link active" href="#">Support</a>
+                <a class="nav-link active" href="#">Pricing</a>
+                <a class="nav-link" href="#">Support</a>
                 <a class="nav-link">Developers</a>
               </div>
               <button type="button" class="btn btn-outline-primary">
@@ -56,133 +61,64 @@
           <h3
             class="regular-fonts margin explicitly-defined padding-top-little"
           >
-            Have a Question?
+            Explicitly Defined Prices
           </h3>
-          <p
-            class="regular-fonts margin it-pays-font padding-top-little inter-padding"
-          >
-            Get quick answer
-          </p>
-          <div class="container border-container margin">
-            <div class="row">
-              <div class="col-6">
-                <p class="text-left regular-fonts small-font">
-                  Type your question
-                </p>
-              </div>
-              <div class="col-6 text-right">
-                <i
-                  class="fa-solid fa-magnifying-glass icon-color icon-size search-icon-color"
-                ></i>
-              </div>
-            </div>
-          </div>
+          <p class="regular-fonts margin it-pays-font">It pays to make money</p>
         </div>
         <!-- <div class="col-lg-12">
           <img src="Pattern.svg" alt="pattern" />
         </div> -->
       </div>
     </section>
-    <section id="frequently-asked-questions">
-      <div class="container margin padding-sides">
-        <h4 class="margin regular-fonts padding margin-bottom">FAQs</h4>
-        <div
-          class="accordion padding sizing-containers margin"
-          id="accordionPanelsStayOpenExample"
-        >
-          <div class="accordion-item border-none margin-bottom">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button
-                class="accordion-button regular-fonts border-radius margin-bottom"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne"
-                aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne"
-              >
-                What is Boldwallet
-              </button>
-            </h2>
+    <section id="pricing">
+      <div class="container">
+        <h3 class="padding margin-bottom">Pricing</h3>
+        <div class="container">
+          <div class="row margin">
             <div
-              id="panelsStayOpen-collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="panelsStayOpen-headingOne"
+              class="card col-5 padding-sides border-none bg shadow pricing-card"
             >
-              <div class="accordion-body text-left regular-fonts">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-money-bill-transfer icon-color margin-bottom"
+                ></i>
+                <h6 class="regular-fonts inter-padding">LOCAL TRANSACTIONS</h6>
+                <h3 class="">1.5% + ₦85</h3>
+                <p class="regular-fonts">capped at 2500</p>
+                <ul class="text-left card-subtext inter-padding">
+                  <li>₦87 fee waived for transactions under ₦1500</li>
+                  <li>Local transactions fees are capped at ₦2500</li>
+                  <li>No Hidden Charges</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-primary hero-button margin-bottom"
+                >
+                  Select this plan
+                </button>
               </div>
             </div>
-          </div>
-          <div class="accordion-item border-none margin-bottom">
-            <h2
-              class="accordion-header border-none"
-              id="panelsStayOpen-headingTwo"
-            >
-              <button
-                class="accordion-button collapsed regular-fonts border-radius padding-top-little"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
-                aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
-              >
-                What is Boldwallet
-              </button>
-            </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingTwo"
+              class="card col-5 padding-sides border-none bg shadow pricing-card"
             >
-              <div class="accordion-body text-left regular-fonts">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item border-none margin-bottoms">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button
-                class="accordion-button collapsed border-radius regular-fonts"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
-                aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
-              >
-                What is Boldwallet
-              </button>
-            </h2>
-            <div
-              id="panelsStayOpen-collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
-            >
-              <div class="accordion-body text-left regular-fonts">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-money-bill-transfer icon-color margin-bottom"
+                ></i>
+                <h6 class="regular-fonts inter-padding">LOCAL TRANSACTIONS</h6>
+                <h3 class="">1.5% + ₦85</h3>
+                <p class="regular-fonts">capped at 2500</p>
+                <ul class="text-left card-subtext inter-padding">
+                  <li>₦87 fee waived for transactions under ₦1500</li>
+                  <li>Local transactions fees are capped at ₦2500</li>
+                  <li>No Hidden Charges</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-primary hero-button margin-bottom"
+                >
+                  Select this plan
+                </button>
               </div>
             </div>
           </div>
@@ -194,7 +130,7 @@
         <div class="row margin-row text-left">
           <div class="col-3">
             <img
-              src="logo.png"
+              src="../assets/images/logo.png"
               alt="logo"
               class="margin-bottom"
               width="40"
@@ -298,7 +234,7 @@
         </div>
         <div class="container padding-sides">
           <div class="circle-chat shadow">
-            <i class="fa-solid fa-message icon-size"></i>
+            <i class="fa-solid fa-message icon-color icon-size"></i>
           </div>
           <hr />
           <div class="row">

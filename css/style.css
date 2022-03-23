@@ -316,7 +316,7 @@ ol li::before {
   padding: 2em 1em;
 }
 ul {
-  list-style-image: url("done.svg");
+  list-style-image: url("../assets/done.svg");
   padding-top: 5px;
   font-family: "cabin-regular";
   line-height: 2em;
