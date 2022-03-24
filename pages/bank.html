@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/css/dashboard.css" />
   </head>
   <body class="bg-light">
-    <div class="dashboard">
+    <main class="dashboard">
       <nav class="navbar navbar-expand-xl navbar-light px-4 bg-white mb-4">
         <div class="container-fluid">
           <a id="logo" class="navbar-brand mx-4" href="/index.html">
@@ -113,7 +113,82 @@
           </div>
         </div>
       </nav>
-    </div>
+    </main>
+
+    <!-- Main container -->
+    <section id="bank" class="content-container">
+      <div class="bank-container mb-5">
+        <h2 class="fs-6 primary-color mb-4">Bank account</h2>
+        <div class="card border-main">
+          <form action="">
+            <div class="mb-3">
+              <div class="form-content">
+                <label for="account-number" class="text-dark mb-2"
+                  >Account Number</label
+                >
+                <input
+                  class="border-main"
+                  type="number"
+                  name="account-number"
+                  id="account-number"
+                  placeholder="23456789023"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="bank" class="text-dark mb-2">Bank</label>
+                <select
+                  name="Select Bank"
+                  id="bank"
+                  required
+                  class="border-main bg-white text-secondary"
+                >
+                  <option value="Select Bank">Select Bank</option>
+                  <option value="First Bank">First Bank</option>
+                  <option value="Zenith Bank">Zenith Bank</option>
+                  <option value="First City Monument Bank">
+                    First City Monuement Bank
+                  </option>
+                  <option value="Access Bank">Access Bank</option>
+                  <option value="United Bank for Africa">
+                    United Bank for Africa
+                  </option>
+                  <option value="Guaranty Trust Bank">
+                    Guaranty Trust Bank
+                  </option>
+                  <option value="Sterling Bank">Sterling Bank</option>
+                  <option value="Fidelity Bank">Fidelity Bank</option>
+                  <option value="Union Bank">Union Bank</option>
+                  <option value="Eco Bank">Eco Bank</option>
+                  <option value="Unity Bank">Unity Bank</option>
+                  <option value="Heritage Bank">Heritage Bank</option>
+                  <option value="Standard Chartered">Standard Chartered</option>
+                  <option value="Wema Bank">Wema Bank</option>
+                  <option value="Titan Trust Bank">Titan Trust Bank</option>
+                  <option value="Kuda">Kuda</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add</button>
+          </form>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="fs-6 primary-color mb-4">Registered Banks</h2>
+      </div>
+      <div
+        class="bank-register d-flex flex-wrap justify-content-between border-main bg-white py-3 px-4"
+      >
+        <h3>No</h3>
+        <h3>Bank Name</h3>
+        <h3>Account No</h3>
+        <h3>Status</h3>
+        <h3>Date Registered</h3>
+      </div>
+    </section>
 
     <!-- Bootstrap -->
     <script
