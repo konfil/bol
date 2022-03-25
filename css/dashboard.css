@@ -177,6 +177,12 @@ a {
   height: 30px;
   padding: 0 0.3rem !important;
   font-size: 0.8rem;
+  transition: 0.2s ease-in-out;
+}
+
+.form-content input:focus,
+.form-content select:focus {
+  border: 1px solid rgba(241, 88, 42, 0.5);
 }
 
 form > div {
