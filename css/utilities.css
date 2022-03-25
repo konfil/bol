@@ -20,6 +20,31 @@
   background-color: var(--tertiary-color) !important;
 }
 
+/* Button */
+.btn {
+  display: inline-block !important;
+  padding: 0.3rem 2rem !important;
+  outline: none !important;
+  cursor: pointer !important;
+  border: 1px solid transparent !important;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background: var(--primary-color) !important;
+  color: var(--text-light) !important;
+}
+.btn-primary:hover {
+  background: inherit !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+  color: var(--text-light);
+}
+
 .dot {
   width: 10px !important;
   height: 10px !important;
@@ -49,4 +74,14 @@
 .highlight-green {
   background: #ebffec;
   color: green;
+}
+
+/* Input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
