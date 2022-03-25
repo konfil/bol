@@ -7,6 +7,13 @@ body {
 }
 
 /* general layout */
+.height {
+  height: 100%;
+  width: 5%;
+}
+.margin-both-side {
+  margin: 3em 0 8em 0;
+}
 .padding {
   padding-top: 3em;
 }
@@ -22,7 +29,8 @@ a {
   background-color: #f1592a;
 }
 .text-orange {
-  /* filter:  */
+  filter: invert(43%) sepia(92%) saturate(2718%) hue-rotate(346deg)
+    brightness(99%) contrast(91%);
 }
 .padding-top-little {
   padding-top: 4px;
