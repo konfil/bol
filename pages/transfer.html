@@ -115,6 +115,83 @@
       </nav>
     </div>
 
+    <!-- Main container -->
+    <section id="bank" class="content-container">
+      <div class="transfer-container mb-5 container-fluid">
+        <h2 class="fs-6 primary-color mb-4">Bank account</h2>
+        <div class="card border-main">
+          <form action="">
+            <div class="mb-4">
+              <div class="form-content">
+                <label for="account-number" class="text-dark mb-2"
+                  >Receiver's Account Number</label
+                >
+                <input
+                  class="border-main"
+                  type="number"
+                  name="account-number"
+                  id="account-number"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="bank" class="text-dark mb-2"
+                  >Receiver's Bank Name</label
+                >
+                <select
+                  name="Select Bank"
+                  id="bank"
+                  required
+                  class="border-main bg-white text-secondary"
+                >
+                  <option value="Select Bank">Select Bank</option>
+                  <option value="First Bank">First Bank</option>
+                  <option value="Zenith Bank">Zenith Bank</option>
+                  <option value="First City Monument Bank">
+                    First City Monuement Bank
+                  </option>
+                  <option value="Access Bank">Access Bank</option>
+                  <option value="United Bank for Africa">
+                    United Bank for Africa
+                  </option>
+                  <option value="Guaranty Trust Bank">
+                    Guaranty Trust Bank
+                  </option>
+                  <option value="Sterling Bank">Sterling Bank</option>
+                  <option value="Fidelity Bank">Fidelity Bank</option>
+                  <option value="Union Bank">Union Bank</option>
+                  <option value="Eco Bank">Eco Bank</option>
+                  <option value="Unity Bank">Unity Bank</option>
+                  <option value="Heritage Bank">Heritage Bank</option>
+                  <option value="Standard Chartered">Standard Chartered</option>
+                  <option value="Wema Bank">Wema Bank</option>
+                  <option value="Titan Trust Bank">Titan Trust Bank</option>
+                  <option value="Kuda">Kuda</option>
+                </select>
+              </div>
+
+              <div class="form-content">
+                <label for="account-number" class="text-dark mb-2"
+                  >Amount</label
+                >
+                <input
+                  class="border-main"
+                  type="number"
+                  name="account-number"
+                  id="account-number"
+                  placeholder="$100"
+                  required
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Transfer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
