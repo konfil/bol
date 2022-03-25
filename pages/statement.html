@@ -115,6 +115,139 @@
       </nav>
     </div>
 
+    <!-- Main container -->
+    <section id="bank" class="content-container">
+      <div class="statement-container mb-5 container-fluid">
+        <h2 class="fs-6 primary-color mb-4">Statement Descriptor</h2>
+        <div class="card border-main">
+          <form action="">
+            <div class="grid-container-2 mb-4">
+              <div class="form-content">
+                <label for="name" class="text-dark mb-2">Name</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Preffered name on recceipt"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="account-number" class="text-dark mb-2"
+                  >Phone Number</label
+                >
+                <input
+                  class="border-main"
+                  type="number"
+                  name="account-number"
+                  id="account-number"
+                  required
+                  min="10"
+                  max="10"
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="address" class="text-dark mb-2">Address</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="address"
+                  id="address"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="city" class="text-dark mb-2">City</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="city"
+                  id="city"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="state-province" class="text-dark mb-2"
+                  >State/Province</label
+                >
+                <input
+                  class="border-main"
+                  type="text"
+                  name="state-province"
+                  id="state-province"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="postal-code" class="text-dark mb-2"
+                  >Postal code/Zip code</label
+                >
+                <input
+                  class="border-main"
+                  type="text"
+                  name="postal-code"
+                  id="postal-code"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="street-one" class="text-dark mb-2">Street 1</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="street-one"
+                  id="street-one"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="street-two" class="text-dark mb-2">Street 2</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="street-two"
+                  id="street-two"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="country" class="text-dark mb-2">Country</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="country"
+                  id="country"
+                  required
+                />
+              </div>
+
+              <div class="form-content">
+                <label for="company" class="text-dark mb-2">Company</label>
+                <input
+                  class="border-main"
+                  type="text"
+                  name="company"
+                  id="company"
+                  required
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

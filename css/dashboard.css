@@ -155,11 +155,16 @@ a {
   justify-content: space-between;
 }
 
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(278px, auto));
+}
+
 /* Form */
 .form-content {
   display: flex;
   flex-direction: column;
-  margin: 0.2rem !important;
+  margin: 0.5rem !important;
 }
 
 .form-content label {
@@ -171,6 +176,7 @@ a {
   width: 250px;
   height: 30px;
   padding: 0 0.3rem !important;
+  font-size: 0.8rem;
 }
 
 form > div {
@@ -237,5 +243,11 @@ form > div {
   .reports-stat svg {
     width: 160px;
     height: 160px;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-container-2 {
+    grid-template-columns: 1fr;
   }
 }
