@@ -7,7 +7,7 @@ html,body {
 
   /* Navbar */
 .navbar{
-    padding: 10px 1% 10px 9%;
+    padding: 10px 8%;
     background-color:#ffffff;
   }
   .nav-item{
@@ -240,7 +240,8 @@ hr {
     padding: 0px 10px
 }
 .sec-b{
-    color: rgb(209, 207, 207)
+    color: rgb(209, 207, 207);
+    font-size: 20px;
 }
 .sec-b:hover{
     color: rgb(234, 97, 6);
@@ -286,5 +287,21 @@ div.dropdown.special{
 }
 .l-i-spec{
     padding:2px 25%;
+}
+.card-row{
+    padding:0px 5%;
+}
+#pricing{
+    padding: 40px 20px;
+}
+.app{
+    margin: 7px 0px;
+}
+.foot-intro{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.foot-nav{
+    margin-bottom: 30px;
 }
 }
