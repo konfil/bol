@@ -7,10 +7,7 @@ html,body {
 }
 
 /* general layout */
-.container-fluid,.container{
-  margin: 0;
-  padding: 0;
-}
+
 .foot-cont{
   margin: auto !important;
 }
@@ -83,57 +80,7 @@ a {
   text-align: center;
 }
 
-/* the hero section of the site  */
-#hero {
-  padding: 0% 10%;
-}
 
-.navbar {
-  padding-top: 20px 8%;
-  text-align: center;
-}
-.navbar-nav {
-  text-align: center;
-}
-
-.navbar-brand {
-  margin-right: 20%;
-  margin-left: 0%;
-}
-.nav-link {
-  font-family: "cabin-medium";
-  font-weight: 400;
-  margin: 0 10px;
-}
-.float-left {
-  float: left;
-  position: relative;
-  width: 15%;
-}
-.float-right {
-  float: right;
-  position: relative;
-  width: 85%;
-}
-.btn-outline-primary {
-  color: black;
-  border-color: black;
-  border-radius: 35px;
-  padding: 0.4em 1.5em;
-  font-family: "cabin-regular";
-  /* font-weight: 400; */
-  text-align: right;
-  font-size: 14;
-  /* position: relative; */
-  /* margin: auto; */
-}
-.collapse {
-  text-align: center;
-}
-/* .container {
-  padding: 0%;
-  width: 100vw;
-} */
 h1 {
   text-align: left;
   padding-right: 30%;
@@ -357,10 +304,12 @@ ul {
 }
 #pricing {
   background-color: #f9f9f9;
-  padding: 0% 10%;
+  padding: 0% 7%;
   padding-bottom: 10em;
 }
-
+#footer{
+  padding: 0px 10%;
+}
 ul li::before {
   /* content: "\2022"; */
   color: #f1592a;
