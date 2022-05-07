@@ -1,12 +1,16 @@
-body {
+html,body {
   background-color: white;
   text-align: center;
   font-family: "cabin";
-  position: absolute;
+
   overflow-x: hidden;
 }
 
 /* general layout */
+.container-fluid,.container{
+  margin: 0;
+  padding: 0;
+}
 .height {
   height: 100%;
   width: 5%;
@@ -452,10 +456,28 @@ ul li::before {
 /* css for the pricing page */
 .explicitly-defined {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f1592a;
 }
 .it-pays-font {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 400px;
+
+}
+.hero-pric-container{
+  text-align: center !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 5px solid rgb(51, 50, 50);
+  box-shadow: 1px -10px 20px 2px rgba(241, 241, 241, 0.953);
+}
+.select{
+  font-weight: 300 !important;
+}
+.mob-sign{
+  display: none;
 }
 /* style for solutions page */
 /* the accordion styles */
@@ -552,4 +574,28 @@ ul li::before {
   background-color: #f1592a;
   border-radius: 10px;
   color: white;
+}
+
+@media (max-width:991px) {
+  .circle-chat {
+    position: relative;
+    background-color: #f1592a;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    left: 0% !important;
+    padding: 12px;
+  }
+  .mob-sign{
+    display: block !important;
+  }
+  .lap-sign{
+    display: none;
+  }
+  .foot-bold{
+    text-align: center;
+  }
 }
