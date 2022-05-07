@@ -11,6 +11,9 @@ html,body {
   margin: 0;
   padding: 0;
 }
+.foot-cont{
+  margin: auto !important;
+}
 .height {
   height: 100%;
   width: 5%;
@@ -343,8 +346,8 @@ ol li::before {
   top: 8em;
 }
 .pricing-card {
-  margin: 2em;
-  padding: 2em 1em;
+  margin: 1em;
+  padding:0;
 }
 ul {
   list-style-image: url("../assets/done.svg");
@@ -456,13 +459,13 @@ ul li::before {
 /* css for the pricing page */
 .explicitly-defined {
   margin-bottom: 20px;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #f1592a;
 }
 .it-pays-font {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400px;
 
 }
@@ -479,6 +482,7 @@ ul li::before {
 .mob-sign{
   display: none;
 }
+
 /* style for solutions page */
 /* the accordion styles */
 
@@ -597,5 +601,19 @@ ul li::before {
   }
   .foot-bold{
     text-align: center;
+  }
+}
+@media (max-width:560px) {
+  .explicitly-defined {
+    font-size: 40px;
+
+  }
+  .it-pays-font {
+    font-size: 20px;
+  
+  }
+  #pricing {
+    background-color: #f9f9f9;
+    padding-bottom: 1em;
   }
 }
