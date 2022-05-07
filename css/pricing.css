@@ -129,7 +129,13 @@ html,body {
   .mob-sign{
     display: none;
   }
+  .fa-money-bill-wave{
+      color: rgba(8, 130, 8, 0.79);
+      font-size: 40px;
+      margin-bottom: 20px;
+  }
   #pricing {
+      margin-top: 50px;
     background-color: #f9f9f9;
     padding: 0% 10%;
     padding-bottom: 10em;
@@ -138,13 +144,15 @@ html,body {
   #footer{
     padding: 0px 10%;
   }
-  .fa-money-bill::before {
-    content: "\f0d6";
-  }
   .pricing-card {
-    margin: 1em;
-    
+    margin: 5% 20%;
     box-shadow: 1px 1px 20px 3px;
+  }
+  .card-body{
+      padding:40px 20px
+  }
+  .card-row{
+      padding:0px 10%;
   }
   .hero-button {
     border-radius: 35px;
@@ -185,8 +193,7 @@ hr {
     padding-right: 35px;
 }
 .app{
-    margin-left: 15px;
-    margin-top: 40px;
+    margin:20px 5px 40px;
 }
 .foot-txt{
     font-size: 19px;
