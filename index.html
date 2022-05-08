@@ -1,622 +1,649 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boldwallet</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/6149d4f6a5.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;500&family=Licorice&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6149d4f6a5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/6149d4f6a5.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <section id="navbar">
+            <img src="assets/images/cloud.png" class="cloud" alt="cloud">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <a class="navbar-brand" href="#title" id="he3ader"><img src="assets/icons/Boldwallet.svg" alt="logo" width="180" height="45" class="n"></a>
+                    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"         data-bs-target="#nav1" aria-label="Toggle navigation" aria-controls="nav1" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse " id="nav1">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item hm">
+                            <div class="dropdown special">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-10">
+                                            Home
+                                        </div>
+                                        <div class="col-lg-6 col-2">
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Home 2</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown special">
+                                <a class="dropdown-toggle orange-hover" href="#" role="button" id="dropdownMenuLink3" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-10">
+                                            Service
+                                        </div>
+                                        <div class="col-lg-6 col-2">
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
+                                  <li><a class="dropdown-item" href="#">Single Serivce</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link secs" href="#experience">Pricing</a></li>
+                        <li class="nav-item special"><a class="nav-link secs" href="https://nicholasovunda.gitbook.io/api-docs/welcome/accept-payment">Developers</a></li>
+                      
+                       
+                        <li class="nav-item lg"><a class="nav-link" href=""><button class="btn btn-sm my-button log ">Login</button></a></li>
+                        <li class="nav-item lg"><a class="nav-link" href=""><button class="btn btn-sm my-button sign">Sign Up</button></a></li>
+                      </ul>
+                    </div>
+                </nav> 
+            </div> 
+        </section>
+        </section>
+        <section id="introduction">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="intro-text">
+                            <h6 class="small-head">WELCOME TO BOLD WALLET</h6>
+                            <h1 class="main-head">The Smart Way for Online Payment Solution.</h1>
+                            <p class="intro-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <div class="buttons">
+                             
+                                <button class="btn btn-sm my-button log log2">Explore Buisness Solutions</button>
+                            
+                                <button class="btn btn-sm my-button sign sign2">Sign Up Now</button>
+                              </div>      
+                                 
+                           
+                               <p class="intro-para">*Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 img-div">
+                        <img src="assets/images/main.svg" id="hero-img" width="800" height="800" alt="hero-img">
+                       
+                    </div>
+                    
+                </div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- hero section -->
-    <section id="hero">
-      <div class="container">
-        <!-- the nav section -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="assets/images/logo.png"
-                alt=""
-                width="40"
-                height="40"
-              />
-            </a>
-         
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav float-right">
-                <a class="nav-link" href="pages/pricing.html">Pricing</a>
-                <a class="nav-link" href="pages/solution.html">Support</a>
-                <a class="nav-link" href="/">Developers</a>
-              </div>
+            </div>
+        </section>
+        <section id="list">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 list-item">
+                        <div class="small-div">
+                            <img src="assets/icons/shopping-cart.png" class="small-img" width="35" height="35" alt="">
+                        </div>
+                        <div class="list-text">
+                            <h4>Ecommerce</h4>
+                            <p class="list-sm">mperdiet fusce pede nec ipsum quis placerat nunc eros ante risus laoreet</p>
+                        </div>
+                            
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 list-item">
+                        <div class="small-div">
+                            <img src="assets/icons/stats.png" class="small-img" width="35" height="35" alt="">
+                        </div>
+                        <div class="list-text">
+                            <h4>Invoicing</h4>
+                            <p class="list-sm">mperdiet fusce pede nec ipsum quis placerat nunc eros ante risus laoreet</p>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 list-item l-i-spec">
+                        <div class="small-div">
+                            <img src="assets/icons/contract.png" class="small-img" width="35" height="35" alt="">
+                        </div>
+                        <div class="list-text">
+                            <h4>Ticket & Event</h4>
+                            <p class="list-sm">mperdiet fusce pede nec ipsum quis placerat nunc eros ante risus laoreet</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+
+        </section>
+        <section id="people" class="thick-font">
+            <div class="people-content">
+                <h1 class="people-h1">Real People. Real Relationships.</h1>
+                <p class="people-txt p-t-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                <div class="row pip-row">
+                    <div class="col-lg-3 col-6">
+                        <div class="row">
+                            <div class="col-4 img-p">
+                                <div class="img-pip">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="pip-content">
+                                    <span class="cont-h"> 457,000 <i class="fas fa-plus"></i></span>
+                                    Happy Client
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="row">
+                            <div class="col-4 img-p">
+                                <div class="img-pip">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="pip-content">
+                                    <span class="cont-h"> 457,000 <i class="fas fa-plus"></i></span>
+                                    Happy Client
+                                </div>
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="row">
+                            <div class="col-4 img-p">
+                                <div class="img-pip">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="pip-content">
+                                    <span class="cont-h"> 457,000 <i class="fas fa-plus"></i></span>
+                                    Happy Client
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="row">
+                            <div class="col-4 img-p">
+                                <div class="img-pip">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="pip-content">
+                                    <span class="cont-h"> 457,000 <i class="fas fa-plus"></i></span>
+                                    Happy Client
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
            
-          </div>
-        </nav>
-        <div class="container hero-container">
-          <div class="row hero-sec-row">
-            <div class="col-lg-6 hero-text">
-              <h1>Global Payment Gateway Made Easy</h1>
-              <p class="subtext display-block">
-                Seamless, Flexible and Easy access transactions from home.
-              </p>
-              <button type="button" class="btn btn-primary hero-button">
-                Get Started
-              </button>
-            </div>
-            <div class="col-lg-6 margin">
-              <img src="assets/images/hero-design.svg" alt="transfer" />
-            </div>
-          </div>
-        </div>
-        <!-- <div class="col-lg-12">
-          <img src="Pattern.svg" alt="pattern" />
-        </div> -->
-      </div>
-    </section>
-    <section id="featured_partners">
-      <h3 class="h3-tags">We are featured on popular partners like</h3>
-      <div class="container padding margin">
-        <div class="row card-row">
-          <div class="col-lg-2 config-margin">
-            <p class="p-subtext">College Akwa</p>
-          </div>
-          <div class="col-lg-2 config-margin">
-            <p class="p-subtext">College Akwa</p>
-          </div>
+        </section>
 
-          <div class="col-lg-2 config-margin">
-            <p class="p-subtext">College Akwa</p>
-          </div>
-          <div class="col-lg-2 config-margin">
-            <p class="p-subtext">College Akwa</p>
-          </div>
-          <div class="col-lg-2 config-margin">
-            <p class="p-subtext">College Akwa</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="how-it-works">
-      <div class="container margin">
-        <h3 class="h3-tags margin-bottom">How it works</h3>
-        <div class="row">
-          <div class="container col-6 margin">
-            <img src="assets/images/payment-process.svg" alt="payment" />
-          </div>
-          <div class="container col-6">
-            <div class="card feature-cards">
-              <div class="circle-radius">
-                <img
-                  src="assets/icons/Create acct.svg"
-                  class="text-orange"
-                  alt="create account"
-                />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Create account</h5>
-                <p class="card-text card-subtext">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+        <section id="integrate" class="thick-font spec-bg">
+            <div class="container-fluid">
+                <div class="row int-row">
+                    <div class="col-lg-6 int-img">
+                        <img src="assets/images/about_us-1.png" id="int-inner" alt="">
+                    </div>
+                    <div class="col-lg-6 int-cont">
+                        <h5 class="int-h5">ABOUT US</h5>
+                        <h1 class="int-h1">Integrate your shopping cart in a matter of minutes. </h1>
+                        <p class="int-sm">Aliquam pretium dictumst imperdiet potenti tempor sit molestie fringilla platea duis commodo
+                        </p>
+                        <button class="btn btn-sm my-button sign sign-int ">Discover More</button>
+
+                    </div>
+                </div>
+
             </div>
-            <div class="card feature-cards">
-              <div class="circle-radius">
-                <img
-                  src="assets/icons/Create acct.svg"
-                  class="text-orange"
-                  alt="create account"
-                />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Send & Receive money</h5>
-                <p class="card-text card-subtext">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+        </section>
+        <section id="featured" class="thick-font">
+            <div class="intro">
+                <h6 class="feat-h6">FEATURED</h6>
+                <h1 class="feat-h1 thick-font">Smart Solution For Your Payment</h1>
+            </div>
+            <div class="row feat-row">
+                <div class=" col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff spec">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row feat-row">
+                <div class="col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="feat-box raise-eff">
+                        <i class="fas fa-wallet"></i>
+                        <h4 class="feat-h4">Payment Methods</h4>
+                        <p class="feat-cont">Metus ridiculus maximus est facilisi dolor ante penatibus cursus litora</p>
+                        <a href="" class="learn-link">Learn More </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="growth" class="thick-font">
+            <div class="g-cont">
+                <h1 class="g-h1">Leading, Trusted. Enabling growth.</h1>
+                <p class="g-txt">Hendrerit eget tincidunt elit ex ullamcorper condimentum volutpat cubilia nam
                 </p>
-              </div>
+                <div class="buttons">
+                    <button class="btn btn-sm my-button log g-log">Explore Buisness Solutions</button>
+                    <button class="btn btn-sm my-button sign sign2 g-sign">Sign Up Now</button>
+                </div>
+            </div>
+           
+        </section>
+        <section id="testimonials" class="spec-bg">
+            <div class="container-fluid">
+                <div class="row test-row">
+                    <div class="col-lg-4">
+                        <div class="test-img-div">
+                            <img src="assets/images/page-5-2.png" class="test-img" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="test-conent">
+                            <div class="test-intro">
+                                <h5 class="int-h5">TESTIMONIALS</h5>
+                                <h1 class="int-h1">What They Say About Us.</h1>
+                                <p class="int-sm">Aliquam pretium dictumst imperdiet potenti tempor.
+                                </p>
+                            </div>
+                            <div class="test-carousel">
+                                <div class="car-item">
+                                    <div class="car-i-1">
+                                        <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <div class="car-img">
+                                            <img src="assets/images/john.jpg" class="test-car-img" width="70" height="70" alt="">
+                                            <span class="test-sm">
+                                                <h4 class="car-h4">John Doe</h4>
+                                                <h5 class="car-or">CEO</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car-item">
+                                    <div class="car-i-1">
+                                        <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <div class="car-img">
+                                            <img src="assets/images/john.jpg" class="test-car-img" width="70" height="70" alt="">
+                                            <span class="test-sm">
+                                                <h4 class="car-h4">John Doe</h4>
+                                                <h5 class="car-or">CEO</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car-item">
+                                    <div class="car-i-1">
+                                        <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <div class="car-img">
+                                            <img src="assets/images/john.jpg" class="test-car-img" width="70" height="70" alt="">
+                                            <span class="test-sm">
+                                                <h4 class="car-h4">John Doe</h4>
+                                                <h5 class="car-or">CEO</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="thick-font">
+            <div class="container-fluid fq-main">
+                <div class="row">
+                    <div class="col-lg-4 fq-ot">
+                        <h6 class="int-h5">FAQ</h6>
+                        <h2 class="int-h1 fh1">Frequently Asked Questions</h2>
+                        <p class="people-txt fq-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="fq-div">
+                            <div class="accordion thick-font" id="accordionExample">
+                                <div class="accordion-item main">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item ">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="thick-font spec-bg">
+            <div class="container-fluid cont-div">
+                <div class="intro">
+                    <h1 class="people-h1">Start using bold wallet today</h1>
+                    <p class="people-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div class="buttons">
+                        <button class="btn btn-sm my-button log log2">Explore Buisness Solutions</button>
+                        <button class="btn btn-sm my-button sign sign2">Sign Up Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="footer">
+            <div class="container-fluid foot-div">
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <div class="foot-intro">
+                            <img src="assets/icons/Boldwallet.svg" width="230" height="60" alt="">
+                            <p class="foot-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <a href="" ><img class="app" src="assets/images/Google-Play_button.png" width="130" height="40" alt=""></a>
+                            <a href="" ><img class="app" src="assets/images/App-Store_button.png" width="130" height="40" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="foot-nav">
+                            <h4 class="foot-h4">Company</h4>
+                            <ul class="foot-ul">
+                                <li class="foot-li"><a href="" class="foot-link">About Us</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Leadership</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Careers</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Blog & Article</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">press Release</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">legal Notice</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="foot-nav">
+                            <h4 class="foot-h4">Get Started</h4>
+                            <ul class="foot-ul">
+                                <li class="foot-li"><a href="" class="foot-link">Startups & Early</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Buisnesses</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Growing Buisnesses</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Enterprise</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="foot-nav">
+                            <h4 class="foot-h4">Featured</h4>
+                            <ul class="foot-ul">
+                                <li class="foot-li"><a href="" class="foot-link">Payment Method</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Subscription</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Token</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Onsite Payment</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Marchant Refund</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="foot-nav">
+                            <h4 class="foot-h4">Support</h4>
+                            <ul class="foot-ul">
+                                <li class="foot-li"><a href="" class="foot-link">Help Center</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">My Account</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">TIcket Support</a></li>
+                                <li class="foot-li"><a href="" class="foot-link">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section id="copyright">
+            <div class="row cop-row">
+                <div class="col-lg-6">
+                    <div class="left">
+                        <a href=""class="foot-link cp-lk" >Terms of use</a>
+                        <a href=""class="foot-link cp-lk">Privacy Policy</a>
+                        <a href=""class="foot-link cp-lk">Cookie Policy</a>
+                        <a href=""class="foot-link cp-lk">Do Not Sell My Personal Information</a>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="right">
+                        <p>Copyright © 2021 bold wallet, All rights reserved. Powered by BoldCreative.</p>
+                    </div>
+                </div>
             </div>
             
-              <div class="card feature-cards">
-                <div class="circle-radius">
-                  <img
-                    src="assets/icons/Create acct.svg"
-                    class="text-orange"
-                    alt="create account"
-                  />
+            
+            <div class="center">
+                <p>isclaimer Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis facilisis ut, faucibus eget lacus. Duis in tellus dignissim augue faucibus facilisis.Maecenas quam nunc, tincidunt quis facilisis ut, faucibus eget lacus. Duis in tellus dignissim augue faucibus facilisis.</p>
+                <div class="socials">
+                    <div class="raise-eff soc-div">
+                        <a href="" class="raise-eff"><i class="fab fa-facebook sec-b"></i></a>
+                    </div>
+                    <div class="raise-eff soc-div">
+                        <a href="" class="raise-eff"><i class="fab fa-instagram sec-b"></i></a>
+                    </div>
+                    <div class="raise-eff soc-div">
+                        <a href="" class="raise-eff"><i class="fab fa-twitter sec-b"></i></a>
+                    </div>
+                    <div class="raise-eff soc-div">
+                        <a href="" class="raise-eff"><i class="fab fa-youtube sec-b"></i></a>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Send & Receive money</h5>
-                  <p class="card-text card-subtext">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="what-we-offer">
-      <div class="container">
-        <div class="text-section-offer">
-          <h3 class="h3-tag padding inter-padding">What we offer</h3>
-          <h4 class="inter-padding solution-text">
-            Solution to Entreprise Business
-          </h4>
-          <p class="inter-padding offers-subtext">
-            We provide a payment gateway for sending and receiving of money. We
-            also help customers make smooth transactions e.g schools, church
-            etc. (B2B E-commerce, B2C E-commerce)
-          </p>
-        </div>
-        <div class="container">
-          <div class="row padding">
-            <div class="col-lg-7">
-              <div class="card b2b-card">
-                <div class="card-body">
-                  <div class="card-title b2b-card-titles">
-                    Business 2 Business (B2B)
-                  </div>
-                  <div class="card-text">
-                    <p class="card-body-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Egestas tellus imperdiet risus, consequat augue neque
-                      porttitor vitae congue. Risus penatibus ante tristique
-                      quis ultrices sed tempus risus
-                    </p>
-                    <ol>
-                      <li>Expand customer experience</li>
-                      <li>Real time informatics on payment transactions</li>
-                      <li>Scheduled payments</li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5">
-              <img
-                src="assets/images/businessimage.jpg"
-                class="image-styling img-fluid"
-                alt="business"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="container padding">
-          <div class="row padding">
-            <div class="col-lg-5 padding">
-              <img
-                src="assets/images/shopping.jpg"
-                class="image-styling1 img-fluid"
-                alt="business"
-              />
-            </div>
-            <div class="col-lg-7 padding">
-              <div class="card b2b-card alignment">
-                <div class="card-body">
-                  <div class="card-title b2b-card-titles">
-                    Business 2 Cutomer (B2C)
-                  </div>
-                  <div class="card-text">
-                    <p class="card-body-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Egestas tellus imperdiet risus, consequat augue neque
-                      porttitor vitae congue. Risus penatibus ante tristique
-                      quis ultrices sed tempus risus
-                    </p>
-                    <ol>
-                      <li>Expand customer experience</li>
-                      <li>Real time informatics on payment transactions</li>
-                      <li>Scheduled payments</li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="designed-for-developers">
-      <div class="container padding">
-        <div class="text-center">
-          <h3 class="h3-tags">Designed for developers</h3>
-        </div>
-        <div class="row designed-for-devs">
-          <div class="col-lg-6">
-            <div class="container">
-              <div class="">
-                <h3 class="solution-text margin-bottom">
-                  Experience easy-to-use well documented APIs
-                </h3>
-              </div>
-              <p class="card-subtext margin-bottom">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tristique pharetra est ultrices imperdiet mi enim cursus. Morbi
-                mauris aliquam cursus amet, leo lacus. Leo blandit sed tortor,
-                scelerisque erat. Mattis vel, diam ut interdum nunc.
-              </p>
-              <button
-                type="button"
-                class="btn btn-primary hero-button margin-bottom"
-              >
-                Read the docx
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-2">
-                  <img
-                    src="assets/images/code.jpg "
-                    class="image-style"
-                    alt="coding"
-                  />
-                </div>
-                <div class="col-lg-2">
-                  <img
-                    src="assets/images/code.jpg "
-                    class="image-style1"
-                    alt="coding"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="pricing">
-      <div class="container padding">
-        <h3 class="h3-tag padding margin-bottom">Pricing</h3>
-        <div class="container">
-          <div class="row margin">
-            <div
-              class="card col-5 padding-sides border-none bg shadow pricing-card"
-            >
-              <div class="card-body">
-                <i
-                  class="fa-solid fa-money-bill-transfer icon-color margin-bottom"
-                ></i>
-                <h6 class="regular-fonts inter-padding">LOCAL TRANSACTIONS</h6>
-                <h3 class="">1.5% + ₦85</h3>
-                <p class="regular-fonts">capped at 2500</p>
-                <ul class="text-left card-subtext inter-padding">
-                  <li>₦87 fee waived for transactions under ₦1500</li>
-                  <li>Local transactions fees are capped at ₦2500</li>
-                  <li>No Hidden Charges</li>
-                </ul>
-                <button
-                  type="button"
-                  class="btn btn-primary hero-button margin-bottom"
-                >
-                  Select this plan
-                </button>
-              </div>
-            </div>
-            <div
-              class="card col-5 padding-sides border-none bg shadow pricing-card"
-            >
-              <div class="card-body">
-                <i
-                  class="fa-solid fa-money-bill-transfer icon-color margin-bottom"
-                ></i>
-                <h6 class="regular-fonts inter-padding">LOCAL TRANSACTIONS</h6>
-                <h3 class="">1.5% + ₦85</h3>
-                <p class="regular-fonts">capped at 2500</p>
-                <ul class="text-left card-subtext inter-padding">
-                  <li>₦87 fee waived for transactions under ₦1500</li>
-                  <li>Local transactions fees are capped at ₦2500</li>
-                  <li>No Hidden Charges</li>
-                </ul>
-                <button
-                  type="button"
-                  class="btn btn-primary hero-button margin-bottom"
-                >
-                  Select this plan
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="customer-review">
-      <div class="container margin-bottom">
-        <h3 class="h3-tags margin-bottom">Customers Review</h3>
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-              class="orange-color"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-              class="orange-color"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-              class="orange-color"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container padding-sides">
-                <img
-                  src="assets/images/userface.jpg"
-                  class="margin-bottom shadow circle-image"
-                  alt="users profile"
-                />
-              </div>
-              <div
-                class="container bg shadow padding-sides carousel-padding margin-bottom"
-              >
-                <div class="container margin-bottom">⭐ ⭐ ⭐ ⭐ ⭐</div>
-                <p class="text-center regular-fonts">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Fusce tristique pharetra est ultrices imperdiet mi enim
-                  cursus. Morbi mauris aliquam cursus am.”
-                </p>
-                <h6 class="inter-padding">Jane Doe</h6>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container padding-sides">
-                <img
-                  src="assets/images/userface.jpg"
-                  class="margin-bottom shadow circle-image"
-                  alt="users profile"
-                />
-              </div>
-              <div
-                class="container bg shadow padding-sides carousel-padding margin-bottom"
-              >
-                <div class="container margin-bottom">⭐ ⭐ ⭐ ⭐ ⭐</div>
-                <p class="text-center regular-fonts">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Fusce tristique pharetra est ultrices imperdiet mi enim
-                  cursus. Morbi mauris aliquam cursus am.”
-                </p>
-                <h6 class="inter-padding">Jane Doe</h6>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container padding-sides">
-                <img
-                  src="assets/images/userface.jpg"
-                  class="margin-bottom shadow circle-image"
-                  alt="users profile"
-                />
-              </div>
-              <div
-                class="container bg shadow padding-sides carousel-padding margin-bottom"
-              >
-                <div class="container margin-bottom">⭐ ⭐ ⭐ ⭐ ⭐</div>
-                <p class="text-center regular-fonts">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Fusce tristique pharetra est ultrices imperdiet mi enim
-                  cursus. Morbi mauris aliquam cursus am.”
-                </p>
-                <h6 class="inter-padding">Jane Doe</h6>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
-    <section id="make-transactions">
-      <div id="make-transit" class="make-transactions">
-        <div class="container">
-          <div class="row margin-row">
-            <div class="col-8">
-              <h6 class="text-left regular-fonts">TRY BOLDWALLET</h6>
-              <h1 class="text-left">Make all your transactions with ease</h1>
-            </div>
-            <div class="col-4 margin">
-              <button
-                type="button"
-                class="btn btn-secondary orange-color create-account"
-              >
-                Create account
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="footer">
-      <div class="container">
-        <div class="row margin-row text-left">
-          <div class="col-3">
-            <img
-              src="assets/images/logo.png"
-              alt="logo"
-              class="margin-bottom"
-              width="40"
-              height="40"
-            />
-            <p class="regular-fonts text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tristique pharetra est ultrices imperdiet mi enim cursus. Morbi
-              mauris aliquam cursus amet, leo lacus. Leo blandit sed tortor,
-            </p>
-          </div>
-          <div class="col-3 padding-sides">
-            <h5 class="text-left margin-bottom">Nigeria</h5>
-            <div class="row">
-              <div class="row">
-                <div class="container text-left row">
-                  <i
-                    class="fa-solid fa-location-dot icon-color col-3 icon-style text-lefts"
-                  ></i>
-                  <p class="text-left regular-fonts col-9">
-                    No. 96 Zik Avenue , Uwani Enugu , Enugu State , Nigeria
-                  </p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="row">
-                  <div class="container text-left row">
-                    <i
-                      class="fa-solid fa-phone icon-color col-3 icon-style text-lefts"
-                    ></i>
-                    <p class="text-left regular-fonts col-9 padding-top-little">
-                      +234(0)80-6809-4681
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <h5 class="text-left margin-bottom">United Kingdom</h5>
-            <div class="row">
-              <div class="row">
-                <div class="container text-left row">
-                  <i
-                    class="fa-solid fa-location-dot icon-color col-3 icon-style text-lefts"
-                  ></i>
-                  <p class="text-left regular-fonts col-9">
-                    116 Armoury Road London, United Kingdom. SE8 4LB
-                  </p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="row">
-                  <div class="container text-left row">
-                    <i
-                      class="fa-solid fa-phone icon-color col-3 icon-style text-lefts"
-                    ></i>
-                    <p class="text-left regular-fonts col-9 padding-top-little">
-                      +447459859091
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <h5 class="text-left margin-bottom">Navigation</h5>
-            <div class="row">
-              <div class="row">
-                <div class="container text-left row">
-                  <a href="#" class="text-left regular-fonts col-9">Pricing</a>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="row">
-                  <div class="container text-left row">
-                    <a
-                      href="#"
-                      class="text-left regular-fonts col-9 padding-top-little"
-                    >
-                      Support
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="container text-left row">
-                    <a
-                      href=""
-                      class="text-left regular-fonts col-9 padding-top-little"
-                    >
-                      Developers
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container padding-sides">
-          <div class="circle-chat shadow">
-            <i class="fa-solid fa-message icon-size"></i>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-8">
-              <p class="regular-fonts text-left padding-sides">
-                Boldwallet™ © 2022 All Rights Reserved
-              </p>
-            </div>
-            <div class="col-2 regular-fonts">
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="col-2 regular-fonts">Privacy Policy</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+       
+        <script>
+            $('.test-carousel').slick({
+                dots:true,
+                infinite: true,
+                autoplay:true,
+                autoplaySpeed:3000,
+               
+                lazyLoad: 'ondemand',
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                speed: 400,
+                prevArrow: false,
+                nextArrow: false,
+                arrows:false,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+                })
+                var slideLeft = {
+                    reset: true,
+                    delay:0,
+                    duration:2500,
+                    distance: '100%',
+                    origin: 'left',
+                    opacity: null
+                };
+                var slideRight = {
+                    reset: true,
+                    delay:0,
+                    duration:2500,
+                    distance: '100%',
+                    origin: 'right',
+                    opacity: null
+                };
+                var slideUp = {
+                    reset: true,
+                    delay:0,
+                    duration:2500,
+                    distance: '100%',
+                    origin: 'bottom',
+                    opacity: 0
+                };
+                
+                ScrollReveal().reveal('#introduction', slideLeft);
+                ScrollReveal().reveal('#list', slideRight);
+                ScrollReveal().reveal('#people', slideUp);
+                ScrollReveal().reveal('#integrate', slideLeft);
+                ScrollReveal().reveal('#featured', slideRight);
+                ScrollReveal().reveal('#growth', slideUp);
+                ScrollReveal().reveal('#testimonials', slideLeft);
+                ScrollReveal().reveal('#faq', slideRight);
+                ScrollReveal().reveal('#contact', slideUp);
+                ScrollReveal().reveal('#footer', slideLeft);
+             
+        </script>
+    </body>
 </html>

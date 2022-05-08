@@ -103,25 +103,24 @@ html,body {
   }
   .explicitly-defined {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 56px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #f1592a;
   }
   .it-pays-font {
     font-size: 25px;
+    padding: 2px 18%;
     font-weight: 400px;
   
   }
   #hero{
       padding-top: 150px;
+    background-color: #f9f9f9; 
   }
   .hero-pric-container{
     text-align: center !important;
-    padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 5px solid rgb(51, 50, 50);
-    box-shadow: 1px -10px 20px 2px rgba(241, 241, 241, 0.953);
   }
   .select{
     font-weight: 300 !important;
@@ -135,9 +134,8 @@ html,body {
       margin-bottom: 20px;
   }
   #pricing {
-      margin-top: 50px;
     background-color: #f9f9f9;
-    padding: 0% 10%;
+    padding: 0% 7%;
     padding-bottom: 10em;
     text-align: center;
   }
@@ -145,15 +143,14 @@ html,body {
     padding: 0px 10%;
   }
   .pricing-card {
-    margin: 5% 20%;
-    box-shadow: 1px 1px 20px 3px;
+    text-align: left !important;
+    box-shadow: none;
   }
   .card-body{
-      padding:40px 20px
+      padding:50px 30px
   }
-  .card-row{
-      padding:0px 10%;
-  }
+
+ 
   .hero-button {
     border-radius: 35px;
     border: none;
@@ -162,14 +159,60 @@ html,body {
     padding: 0.5em 1.5em;
     font-family: "cabin-regular";
   }
-
-  
+.regular-fontsz{
+  font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
+  ul.card-subtext li{
+    font-weight: 500 !important;
+  }
   ul.card-subtext {
-    list-style-image: url("../assets/done.svg");
+    list-style-image: url("../assets/icons/donecol.svg");
     padding-top: 5px;
     font-family: "cabin-regular";
     line-height: 2em;
+   font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+  }
+  .p1{
+    border-top: 5px solid blue;
+  }
+  .p2{
+    border-top: 5px solid rgba(8, 130, 8, 0.79);
+  }
+  .p3{
+    border-top: 5px solid #f1592a;
+  }
+  .title{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .start{
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .spec{
+    color:rgba(8, 130, 8, 0.79) ;
+  }
+  .per{
+    color: rgb(201, 201, 201);
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .p2-but{
+    background-color: blue !important;
+  }
+  .p2-ic{
+    color: blue;
+  }
+  .p3-ic{
+    color: rgba(8, 130, 8, 0.79);
+  }
+  .p1-ic{
+    color:  #f1592a;
+  }
+  .p3-but{
+    background-color: rgba(8, 130, 8, 0.79) !important;
   }
   /* footer */
 #footer{
@@ -303,5 +346,13 @@ div.dropdown.special{
 }
 .foot-nav{
     margin-bottom: 30px;
+}
+.it-pays-font {
+  padding: 2px 8%;
+ 
+
+}
+.card{
+ margin-bottom: 50px !important; 
 }
 }
